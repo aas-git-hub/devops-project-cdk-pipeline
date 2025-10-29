@@ -1,0 +1,21 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "6d6bf560288e64f319f877ebfc6ea5c06fbe5e1b51763eeeb04f0ec6a48fbb6b": {
+      "displayName": "AWSDevOpsProjectStack Template",
+      "source": {
+        "path": "AWSDevOpsProjectStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "648485682149-ca-central-1-769f5ecf": {
+          "bucketName": "cdk-hnb659fds-assets-648485682149-ca-central-1",
+          "objectKey": "6d6bf560288e64f319f877ebfc6ea5c06fbe5e1b51763eeeb04f0ec6a48fbb6b.json",
+          "region": "ca-central-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::648485682149:role/cdk-hnb659fds-file-publishing-role-648485682149-ca-central-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

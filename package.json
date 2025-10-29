@@ -1,0 +1,14 @@
+{
+  "name": "devops-project-cdk-pipeline",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "^2.221.0",
+    "constructs": "^10.1.200",
+    "typescript": "^5.9.3"
+  }
+}
