@@ -2,7 +2,7 @@
   "name": "devops-project-cdk-pipeline",
   "version": "0.1.0",
   "bin": {
-    "devops-project-cdk": "bin/devops-project-cdk.js"
+    "devops-project-cdk-pipeline": "bin/devops-project-cdk-pipeline.js"
   },
   "scripts": {
     "build": "tsc",
